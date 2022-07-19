@@ -11,7 +11,8 @@ Header , es la barra de navegacion.
 
 Login , es el formulario de ingreso. Las credenciales son :
 
-mail : challenge@alkemy.org pass: react
+* mail : challenge@alkemy.org 
+* pass: react
 
 Sin las credenciales correctas no sera posible ingresar. Se usa Axios hacia http://challenge-react.alkemy.org para solicitar token de ingreso. Una vez que se ingresa, la sesion permanecera validada por dicho token que se guarda en sesionstorage.
 
